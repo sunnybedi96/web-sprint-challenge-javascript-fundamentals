@@ -25,7 +25,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
-       -  They are similar because they both modify the array but .map returns a new array while the .foreach doesnt not.
+       -  map creates a new array by transforming every element in an array individually. filter creates a new array by removing elements that don't belong. reduce , on the other hand, takes all of the elements in an array and reduces them into a single value
 
 2. Explain the difference between a callback and a higher order function.
        -  A callback function is nested inside of an higher function.
