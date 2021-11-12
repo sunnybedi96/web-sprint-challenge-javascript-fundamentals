@@ -25,15 +25,23 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
+       -  They are similar because they both modify the array but .map returns a new array while the .foreach doesnt not.
 
 2. Explain the difference between a callback and a higher order function.
+       -  A callback function is nested inside of an higher function.
 
 3. Explain what a closure is.
+     -  A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment).
 
 4. Describe the four principles of the 'this' keyword.
+       1. Global Object Binding: When "this" is in the global scope, it is referring to the window/console.
+    2. Implicit Binding: When a function/method is used on an object and "this" is used inside of it, "this" is referring to the object that precedes the dot notation.
+    3. New Binding: When a new object is being created, "this" refers to the new object that was created.
+    4. Explicit Binding: When using "call or "apply," "this" is explicitly defined.
 
 5. Why do we need super() in an extended class?
-
+     - 
+It calls the parent class and passes the parameters to the child.
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
